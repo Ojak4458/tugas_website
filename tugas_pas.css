@@ -1,0 +1,72 @@
+
+/* ini teh agar card punya animasi*/
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+}
+
+/* Footer Styles */
+footer {
+  width: 100%;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+footer h5 {
+  color: #ecd721;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ff4655;
+}
+
+
+form {
+  transition: transform 0.3s ease;
+}
+form:hover {
+  transform: translateY(-3px);
+}
+button {
+  transition: transform 0.3s ease;
+}
+button:hover {
+  transform: translateY(-3px);
+}
+a {
+  transition: transform 0.3s ease;
+}
+a:hover {
+  transform: translateY(-1px);
+}
+h2 {
+  transition: transform 0.3s ease;
+}
+h2:hover {
+  transition: transform 0.3s ease;
+}
+input::placeholder {
+  font-size: 20px;
+  font: bold;
+}
+
+#animatedInput {
+  padding: 10px;
+  font-size: 16px;
+}
+#ani {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
